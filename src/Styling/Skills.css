@@ -1,0 +1,110 @@
+.skill {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 87vh;
+  }
+  @media only screen and (max-width: 600px) {
+    .skill {
+      justify-content: space-around;
+    }
+  }
+
+  .skill h1{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
+  }
+  @media (max-width: 760px) {
+    .skill h1 {
+      font-size: 40px;
+    }
+  }
+  .hr{
+    width: 100px; 
+    margin-top: -18px;
+    height: 4px;
+    background-color: #18d26e;
+    border: none;
+
+    @media (max-width: 650px){
+      margin-bottom: -20px;
+    }
+    @media (max-width: 415px){
+      margin-top: -30px;
+      margin-bottom: 10px;
+    }
+  }
+.techStacks{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 50%;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.techIMG{
+  width: 100px;
+  height: 100px;
+}
+
+#express{
+  color: #beff00;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#mongo{
+  color: #58aa50;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#redux{
+  color: #6c4eb0;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#node{
+  color: #6da75d;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#types{
+  color: #5992ce;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#js{
+  color: #ffdf00 ;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#css{
+  color: 
+  #2196f3;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#html{
+  color: #ff4b00;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+#react{
+  color: #00bfe3;
+  font-family: cursive;
+  font-size: 23px;
+  font-weight: bold;
+}

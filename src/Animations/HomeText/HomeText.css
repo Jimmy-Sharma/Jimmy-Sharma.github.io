@@ -1,0 +1,24 @@
+.HomeText {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #dc0505, #fff, #0a2db7);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 7s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 32, 32, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}
