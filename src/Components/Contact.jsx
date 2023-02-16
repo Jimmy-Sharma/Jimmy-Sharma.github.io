@@ -40,12 +40,12 @@ const Contact = () => {
             <div>
               <FaPhone className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-20px", color: " #18d26e" }} />
               <h1>Phone</h1>
-              <p>(+91) 8637085433</p>
+              <p id="contact-phone">(+91) 8637085433</p>
             </div>
             <div>
               <GrMail className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-20px", color: " #18d26e" }} />
               <h1>Email</h1>
-              <p>prince786no.1@gmail.com</p>
+              <p id="contact-email">prince786no.1@gmail.com</p>
             </div>
           </div>
 
