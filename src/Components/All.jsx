@@ -12,7 +12,7 @@ const All = () => {
         <Navbar/>
         <Home/>
         <About/>
-        {/* <Projects/> */}
+        <Projects/>
         <Skills/>
         <Contact/>
     </div>
