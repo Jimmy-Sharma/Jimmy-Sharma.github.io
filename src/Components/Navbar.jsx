@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div className={'topbar '}>
+        <div className={'topbar '} id="nav-menu">
             <div className="wrapper">
                 <div className="left">
                     <div className="logoImg">

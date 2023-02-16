@@ -8,7 +8,7 @@ import HomeText from '../Animations/HomeText/HomeText';
 const Home = () => {
 
   return (
-    <div className="intro" id="intro">
+    <div className="intro" id="home">
       <div className="backgroundIMG">
         <div>
           <img src="developerBoy.gif" alt="developerBoy" />
