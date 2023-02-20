@@ -1,0 +1,7 @@
+.githubStat {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(rgb(1, 13, 73), rgb(112, 122, 255));
+    color: white;
+}

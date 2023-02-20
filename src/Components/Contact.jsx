@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState ,useEffect} from "react";
 import { FaHome } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
+    <div id="contact" >
       <br />
       <h1 style={{ textAlign: "center", color: "white" }} >Contact Me Here</h1>
       <hr style={{ width: 150, marginTop: "-18px", height: 4, backgroundColor: "#18d26e", border: "none" }} />
@@ -33,19 +33,19 @@ const Contact = () => {
           <br />
           <div className="contactMain">
             <div className="div1">
-              <FaHome className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-20px", color: " #18d26e" }} />
+              <FaHome className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
               <h1>Location</h1>
               <p>Durgapur, West Bengal</p>
             </div>
             <div>
-              <FaPhone className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-20px", color: " #18d26e" }} />
+              <FaPhoneAlt className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
               <h1>Phone</h1>
               <p id="contact-phone">(+91) 8637085433</p>
             </div>
             <div>
-              <GrMail className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-20px", color: " #18d26e" }} />
+              <GrMail className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
               <h1>Email</h1>
-              <p id="contact-email">prince786no.1@gmail.com</p>
+              <p id="contact-email" >prince786no.1@gmail.com</p>
             </div>
           </div>
 

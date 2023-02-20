@@ -19,25 +19,25 @@ const Navbar = () => {
                 </div>
                 <div className="right">
                     <div className="itemContainer1">
-                        <a href="#intro">HOME</a>
+                        <a href="#home">HOME</a>
                     </div>
                     <div className="itemContainer1">
                         <a href="#about">ABOUT</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#Project">PROJECT</a>
+                        <a href="#projects">PROJECT</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#skill">SKILL</a>
+                        <a href="#skills">SKILL</a>
                     </div>
                     <div className="itemContainer1">
                         <a href="#contact">CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
                         <a
+                            id="resume-link-1"
                             href="https://drive.google.com/file/d/11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6/view?usp=sharing"
                             target="blank"
-                            id="last"
                         >
                             RESUME <FaDownload className="icon1" />
                         </a>

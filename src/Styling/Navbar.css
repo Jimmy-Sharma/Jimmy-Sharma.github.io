@@ -110,12 +110,12 @@
     }
 }
 
-.topbar .wrapper .right .itemContainer1 #last {
+.topbar .wrapper .right .itemContainer1 #resume-link-1 {
     margin-right: 40px;
 }
 
 @media (max-width: 644px) {
-    .topbar .wrapper .right .itemContainer1 #last {
+    .topbar .wrapper .right .itemContainer1 #resume-link-1 {
         margin-right: 0px;
     }
 }
@@ -175,7 +175,7 @@
     opacity: 0;
 }
 
-.topbar.active .hamburger span:last-child {
+.topbar.active .hamburger span:resume-link-1-child {
     background-color: #c0a248;
     transform: rotate(-45deg);
 }

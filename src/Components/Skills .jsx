@@ -3,50 +3,51 @@ import '../Styling/Skills.css'
 
 const Skills = () => {
   return (
-    <div className="skill" id="skill">
+<div className="skill"  id="skills">
       <div>
         <h1>Tech Stacks</h1>
         <hr className="hr" />
       </div>
       <div className='techStacks'>
-        <div>
-          <img src="html.png" alt="HTML" className='techIMG'/>
-          <p id='html'>HTML</p>
+        <div className='techStacksDivL'>
+          <img src="html.png" alt="HTML"  className="skills-card-img"/>
+          <p id='html' className="skills-card-name">HTML</p>
         </div>
-        <div>
-          <img src="css-3.png" alt="CSS" className='techIMG'/>
-          <p id='css'>CSS</p>
+        <div className='techStacksDivM'>
+          <img src="css-3.png" alt="CSS"  className="skills-card-img"/>
+          <p id='css' className="skills-card-name">CSS</p>
         </div>
-        <div>
-          <img src="js.png" alt="JS" className='techIMG'/>
-          <p id='js'>JS</p>
+        <div className='techStacksDivR'>
+          <img src="js.png" alt="JS"  className="skills-card-img"/>
+          <p id='js' className="skills-card-name">JS</p>
         </div>
-        <div>
-          <img src="react.png" alt="React" className='techIMG'/>
-          <p id='react'>React</p>
+        <div className='techStacksDivL'>
+          <img src="react.png" alt="React"  className="skills-card-img"/>
+          <p id='react' className="skills-card-name">React</p>
         </div>
-        <div>
-          <img src="typescript.png" alt="Typescript" className='techIMG'/>
-          <p id='types'>Typescript</p>
+        <div className='techStacksDivM'>
+          <img src="typescript.png" alt="Typescript"  className="skills-card-img"/>
+          <p id='types' className="skills-card-name">Typescript</p>
         </div>
-        <div>
-          <img src="nodejs.png" alt="NodeJS" className='techIMG'/>
-          <p id='node'>NodeJS</p>
+        <div className='techStacksDivR'>
+          <img src="nodejs.png" alt="NodeJS"  className="skills-card-img"/>
+          <p id='node' className="skills-card-name">NodeJS</p>
         </div>
-        <div>
-          <img src="redux.png" alt="Redux" className='techIMG'/>
-          <p id='redux'>Redux</p>
+        <div className='techStacksDivL'>
+          <img src="redux.png" alt="Redux"  className="skills-card-img"/>
+          <p id='redux' className="skills-card-name">Redux</p>
         </div>
-        <div>
-          <img src="mongodb.png" alt="MongoDB" className='techIMG'/>
-          <p id='mongo'>MongoDb</p>
+        <div className='techStacksDivM'>
+          <img src="mongodb.png" alt="MongoDB"  className="skills-card-img"/>
+          <p id='mongo' className="skills-card-name">MongoDb</p>
         </div>
-        <div>
-          <img src="express.png" alt="ExpressJS" className='techIMG'/>
-          <p id='express'>ExpressJS</p>
+        <div className='techStacksDivR'>
+          <img src="express.png" alt="ExpressJS"  className="skills-card-img"/>
+          <p id='express' className="skills-card-name">ExpressJS</p>
         </div>
       </div>
     </div>
+    
   )
 }
 
