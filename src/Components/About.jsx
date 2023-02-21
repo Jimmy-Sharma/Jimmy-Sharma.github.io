@@ -2,6 +2,9 @@ import React from 'react'
 import '../Styling/About.css'
 
 const About = () => {
+
+
+    
   return (
     <div id="about"  className="aboutSection">
             <br />

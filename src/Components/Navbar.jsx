@@ -19,22 +19,23 @@ const Navbar = () => {
                 </div>
                 <div className="right">
                     <div className="itemContainer1">
-                        <a href="#home">HOME</a>
+                        <a href="#home" className="nav-link home">HOME</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#about">ABOUT</a>
+                        <a href="#about" className="nav-link about">ABOUT</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#projects">PROJECT</a>
+                        <a href="#projects" className="nav-link projects">PROJECT</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#skills">SKILL</a>
+                        <a href="#skills" className="nav-link skills">SKILL</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#contact">CONTACT</a>
+                        <a href="#contact" className="nav-link contact">CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
                         <a
+                            className="nav-link resume"
                             id="resume-link-1"
                             href="https://drive.google.com/file/d/11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6/view?usp=sharing"
                             target="blank"
@@ -45,7 +46,7 @@ const Navbar = () => {
 
                     <div
                         className="hamburger"
-                        // onClick={() => setMenuOpen(!menuOpen)}
+                    // onClick={() => setMenuOpen(!menuOpen)}
                     >
                         <span className="line1"></span>
                         <span className="line2"></span>
