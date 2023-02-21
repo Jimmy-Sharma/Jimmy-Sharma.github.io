@@ -1,10 +1,10 @@
-.aboutSection {
+#about {
     width: 100%;
     padding-top: 70px;
     padding-bottom: 70px;
     background-image: linear-gradient(rgb(1, 13, 73), rgb(112, 122, 255));
   }
-  .aboutSection h1 {
+  #about h1 {
     text-align: center;
     font-weight: 500px;
     font-size: 42px;
@@ -12,7 +12,7 @@
     margin-top: -10px;
   }
   @media (max-width: 760px) {
-    .aboutSection h1 {
+    #about h1 {
       font-size: 32px;
     }
   }
