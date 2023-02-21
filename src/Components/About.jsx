@@ -6,7 +6,7 @@ const About = () => {
 
     
   return (
-    <div id="about"  className="aboutSection">
+    <div id="about"  className="about section">
             <br />
             <h1 style={{color:"yellow"}}>About Me</h1>
             <hr style={{width: 150, marginTop: "-25px",height: 3, backgroundColor: "#18d26e", border: "none"}}/>

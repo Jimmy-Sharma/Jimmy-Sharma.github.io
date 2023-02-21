@@ -20,7 +20,7 @@ const Projects = () => {
                   ZARA is an e-commerce website. where you can purchase
                   clothing stuff.
                 </p>
-                {/* <p class="project-tech-stack">useing React,redux,redux-thunk,chakraUi,css,Firebase</p> */}
+                <p className="project-tech-stack">useing React,redux,redux-thunk,chakraUi,css,Firebase</p>
                 <div className="p_btn">
                   <button className="btn">
                     <a
@@ -50,7 +50,7 @@ const Projects = () => {
                   Sephora is an e-commerce website. where you can purchase
                   cosmetics stuff.
                 </p>
-                {/* <p class="project-tech-stack">useing React,redux,css,chakraUi,Firebase</p> */}
+                <p className="project-tech-stack">useing React,redux,css,chakraUi,Firebase</p>
                 <div className="p_btn">
                   <button className="btn">
                     <a
@@ -81,7 +81,7 @@ const Projects = () => {
                   This is a clone of MyFitnessPal, a smartphone app and website
                   that tracks diet and exercise. Features: carousel; optimized
                 </p>
-                {/* <p class="project-tech-stack">Useing Html,css,javascript</p> */}
+                <p className="project-tech-stack">Useing Html,css,javascript</p>
                 <div className="p_btn">
                   <button className="btn">
                     <a
@@ -113,7 +113,7 @@ const Projects = () => {
                   MyGlamm, the Indian e-commerce company that sells cosmetics and
                   personal care products. The project was done in collaboration.
                 </p>
-                {/* <p class="project-tech-stack">Useing Html,css,javascript</p> */}
+                <p className="project-tech-stack">Useing Html,css,javascript</p>
                 <div className="p_btn">
                   <button className="btn">
                     <a

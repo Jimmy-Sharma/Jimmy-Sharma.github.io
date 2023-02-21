@@ -9,39 +9,39 @@ const Skills = () => {
         <hr className="hr" />
       </div>
       <div className='techStacks'>
-        <div className='techStacksDivL'>
+        <div className='skills-card'>
           <img src="html.png" alt="HTML"  className="skills-card-img"/>
           <p id='html' className="skills-card-name">HTML</p>
         </div>
-        <div className='techStacksDivM'>
+        <div className='skills-card'>
           <img src="css-3.png" alt="CSS"  className="skills-card-img"/>
           <p id='css' className="skills-card-name">CSS</p>
         </div>
-        <div className='techStacksDivR'>
+        <div className='skills-card'>
           <img src="js.png" alt="JS"  className="skills-card-img"/>
           <p id='js' className="skills-card-name">JS</p>
         </div>
-        <div className='techStacksDivL'>
+        <div className='skills-card'>
           <img src="react.png" alt="React"  className="skills-card-img"/>
           <p id='react' className="skills-card-name">React</p>
         </div>
-        <div className='techStacksDivM'>
+        <div className='skills-card'>
           <img src="typescript.png" alt="Typescript"  className="skills-card-img"/>
           <p id='types' className="skills-card-name">Typescript</p>
         </div>
-        <div className='techStacksDivR'>
+        <div className='skills-card'>
           <img src="nodejs.png" alt="NodeJS"  className="skills-card-img"/>
           <p id='node' className="skills-card-name">NodeJS</p>
         </div>
-        <div className='techStacksDivL'>
+        <div className='skills-card'>
           <img src="redux.png" alt="Redux"  className="skills-card-img"/>
           <p id='redux' className="skills-card-name">Redux</p>
         </div>
-        <div className='techStacksDivM'>
+        <div className='skills-card'>
           <img src="mongodb.png" alt="MongoDB"  className="skills-card-img"/>
           <p id='mongo' className="skills-card-name">MongoDb</p>
         </div>
-        <div className='techStacksDivR'>
+        <div className='skills-card'>
           <img src="express.png" alt="ExpressJS"  className="skills-card-img"/>
           <p id='express' className="skills-card-name">ExpressJS</p>
         </div>
