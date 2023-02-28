@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styling/Navbar.css"
 import { FaDownload } from 'react-icons/fa';
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     const handleOpen = () => {
@@ -40,7 +41,7 @@ const Navbar = () => {
                         <a href="#contact" className="nav-link contact">CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
-                        <button id="resume-button-1" onClick={handleOpen}>
+                        {/* <button id="resume-button-1" onClick={handleOpen}>
                             <a
                                 id="resume-link-1"
                                 href="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6"
@@ -48,8 +49,24 @@ const Navbar = () => {
                             >
                                 RESUME <FaDownload className="icon1" />
                             </a>
-                        </button>
+                        </button> */}
+                        <Link className="nav-link resume" to="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6">
+                            <button
+                                id="resume-button-1"
+                                style={{
+                                    background: "none",
+                                    border: "none",
+                                    fontWeight: "bold",
+                                    fontSize: "16px",
+                                }}
+                                onClick={handleOpen}
+                            >
+                                Resume
+
+                            </button>
+                        </Link>
                     </div>
+
 
                     <div
                         className="hamburger"
