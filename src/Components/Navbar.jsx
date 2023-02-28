@@ -31,13 +31,13 @@ const Navbar = () => {
                         <a href="#about" className="nav-link about">ABOUT</a>
                     </div>
                     <div className="itemContainer1">
-                        <a href="#projects" >PROJECT</a>
+                        <a href="#projects" className="nav-link projects" >PROJECT</a>
                     </div>
                     <div className="itemContainer1">
                         <a href="#skills" className="nav-link skills">SKILL</a>
                     </div>
-                    <div className="itemContainer1">
-                        <a href="#contact" >CONTACT</a>
+                    <div className="nav-link resume">
+                        <a href="#contact" className="nav-link contact">CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
                         <button id="resume-button-1" onClick={handleOpen}>
