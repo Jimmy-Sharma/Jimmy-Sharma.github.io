@@ -27,6 +27,14 @@
   .topbar .wrapper .left .logoImg {
       width: 160px;
   }
+  #resume-button-1{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+  }
+  #resume-button-1:hover{
+    background-color: transparent;
+  }
 
   @media (max-width: 1000px) {
       .topbar .wrapper .left .logoImg {

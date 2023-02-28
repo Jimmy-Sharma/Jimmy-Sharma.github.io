@@ -37,7 +37,7 @@ const Navbar = () => {
                     <div className="itemContainer1">
                         <a href="#skills" className="nav-link skills">SKILL</a>
                     </div>
-                    <div className="nav-link resume">
+                    <div className="itemContainer1">
                         <a href="#contact" className="nav-link contact">CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
@@ -53,15 +53,9 @@ const Navbar = () => {
                         <Link className="nav-link resume" to="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6">
                             <button
                                 id="resume-button-1"
-                                style={{
-                                    background: "none",
-                                    border: "none",
-                                    fontWeight: "bold",
-                                    fontSize: "16px",
-                                }}
                                 onClick={handleOpen}
                             >
-                                Resume
+                                RESUME <FaDownload className="icon1" />
 
                             </button>
                         </Link>

@@ -45,7 +45,7 @@ const Home = () => {
                 }}
                 onClick={handleClickHome}
               >
-                Resume
+                <FaFileDownload className="icon" />
 
               </button>
             </Link>
