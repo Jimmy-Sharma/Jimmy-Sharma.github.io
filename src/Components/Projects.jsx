@@ -4,7 +4,7 @@ import '../Styling/Project.css'
 const Projects = () => {
   return (
     <div>
-      <div className="projects" id="projects" >
+      <div className="projectss" id="projects" >
         <h1 className="pro">
           Projects
         </h1>
