@@ -1,6 +1,7 @@
 .backgroundIMG {
-  background-image:
-    url("https://wallpaperaccess.com/full/302495.jpg");
+  /* background-image:
+    url("https://miro.medium.com/v2/resize:fit:1400/0*ppksZ4leAG6MCsji"); */
+  background-image: linear-gradient(rgb(1, 41, 241), rgb(187, 0, 34));
   background-size: "cover";
   width: 100%;
   font-size: 50px;
@@ -12,7 +13,7 @@
   padding-bottom: 110px;
 }
 
-.introName{
+.introName {
   font-size: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 8px;
@@ -20,7 +21,7 @@
   font-family: cursive;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,8 +29,13 @@
   margin-top: 70px;
 }
 
-.icon{
+.icon {
   width: 70px;
   height: 70px;
   color: white;
+}
+
+#resume-button-2{
+  background-color: transparent;
+  border: 0px;
 }

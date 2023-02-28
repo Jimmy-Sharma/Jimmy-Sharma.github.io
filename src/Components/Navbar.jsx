@@ -3,6 +3,12 @@ import "../Styling/Navbar.css"
 import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
+    const handleOpen = () => {
+        window.open(
+            "https://drive.google.com/file/d/11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6/view?usp=sharing",
+            "_blank"
+        );
+    }
     return (
         <div className={'topbar '} id="nav-menu">
             <div className="wrapper">
@@ -34,18 +40,20 @@ const Navbar = () => {
                         <a href="#contact" >CONTACT</a>
                     </div>
                     <div className="itemContainer1" id="lastDiv">
-                        <a
-                            id="resume-link-1"
-                            href="https://drive.google.com/file/d/11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6/view?usp=sharing"
-                            target="blank"
-                        >
-                            RESUME <FaDownload className="icon1" />
-                        </a>
+                        <button id="resume-button-1" onClick={handleOpen}>
+                            <a
+                                id="resume-link-1"
+                                href="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6"
+                                target="blank"
+                            >
+                                RESUME <FaDownload className="icon1" />
+                            </a>
+                        </button>
                     </div>
 
                     <div
                         className="hamburger"
-                        // onClick={() => setMenuOpen(!menuOpen)}
+                    // onClick={() => setMenuOpen(!menuOpen)}
                     >
                         <span className="line1"></span>
                         <span className="line2"></span>
