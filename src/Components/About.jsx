@@ -13,11 +13,9 @@ const About = () => {
             <div className="aboutMain">
                 <div className="aboutRight">
                     <h1 id="user-detail-name">I'm Prince Sharma, a <span style={{ color: "yellow"}}>Full Stack Web Developer</span></h1>
-                    <p id="user-detail-intro">A Full Stack Developer, with strong administrative and communication skills, good attention to detail and with the ability to write efficient code using MERN Stack.</p>
 
-                    <p>I have been developing Web Apps for over 7 months now. Well versed in coding using Javascript and its frameworks.</p>
+                    <p  id="user-detail-intro">An enthusiastic Full Stack Web Developer skilled in MERN stack with 1300+ hours of experience in coding. Knowledge of HTML, CSS, Javascript, React, Redux, Next.js, Node.js, Express.js and MongoDB. High adaptability to learn new technologies quickly and paying attention to details. Looking to start a career as a web developer with a reputed firm driven by technology.</p>
 
-                    <p>As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for discovering new things every day.</p>
                 </div>
                 <div className="aboutLeft">
                     <img className="home-img" src="PrincePictureBG.png" alt="PrinceIMG" />

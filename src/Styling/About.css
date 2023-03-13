@@ -11,6 +11,12 @@
     color: black;
     margin-top: -10px;
   }
+  #user-detail-intro{
+    font-size: 26px;
+    font-family: sans-serif;
+    line-height: 33px;
+    color: rgb(135, 149, 144);
+  }
   @media (max-width: 760px) {
     #about h1 {
       font-size: 32px;
