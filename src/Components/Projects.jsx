@@ -35,7 +35,7 @@ const Projects = () => {
                     <a
                       className="project-github-link"
                       style={{ textDecoration: "none" }}
-                      href="https://github.com/i-m-prince/beneficial-jelly-4258"
+                      href="https://github.com/Jimmy-Sharma/beneficial-jelly-4258"
                     >
                       Github Link
                     </a>
