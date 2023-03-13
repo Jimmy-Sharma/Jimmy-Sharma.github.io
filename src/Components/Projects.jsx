@@ -26,7 +26,7 @@ const Projects = () => {
                     <a
                       className="project-deployed-link"
                       style={{ textDecoration: "none" }}
-                      href="https://Jimmy-Sharma.github.io/beneficial-jelly-4258/"
+                      href="https://jimmy-sharma.github.io/beneficial-jelly-4258/"
                     >
                       Check it Out!
                     </a>
