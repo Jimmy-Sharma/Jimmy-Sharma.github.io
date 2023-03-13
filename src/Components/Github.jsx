@@ -10,7 +10,7 @@ const Github = () => {
       </GithubCalender>
       <div style={{ display: "grid", alignItems: "center", justifyContent: "center" ,gap:'20px', marginTop:"40px"}}>
         <div>
-          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Jimmy-Sharma&theme=dark&hide_border=false" alt="streak" />
+          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Jimmy-Sharma" alt="streak" />
         </div>
         <div>
           <img id='github-top-langs' src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jimmy-Sharma&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="" />
