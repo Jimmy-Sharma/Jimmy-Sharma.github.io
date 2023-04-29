@@ -1,6 +1,6 @@
 import React from 'react'
-import { useState ,useEffect} from "react";
-import { FaHome } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { FaHome, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import Aos from "aos";
@@ -12,7 +12,7 @@ const Contact = () => {
   const [message, setMessage] = useState(false);
 
   useEffect(() => {
-    Aos.init({ duration: 1200});
+    Aos.init({ duration: 1200 });
   })
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,54 +20,85 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" >
-      <br />
-      <h1 style={{ textAlign: "center", color: "white" }} className='contact_PS'>Contact Me Here</h1>
-      <hr style={{ width: 150, marginTop: "-18px", height: 4, backgroundColor: "#18d26e", border: "none" }} />
-      <div className="contact">
-        <div className="left">
-          <br />
-          <p >Let's get in touch and build something together.</p>
-          <br />
-          <br />
-          <br />
-          <div className="contactMain">
-            <div className="div1">
-              <FaHome className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
-              <h1>Location</h1>
-              <p>Durgapur, West Bengal</p>
-            </div>
-            <div>
-              <FaPhoneAlt className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
-              <h1>Phone</h1>
-              <p id="contact-phone">(+91) 8637085433</p>
-            </div>
-            <div>
-              <GrMail className="icon1" style={{ width: "80px", height: "25px", marginLeft: "-120px", color: " #18d26e" }} />
-              <h1>Email</h1>
-              <p id="contact-email" >prince786no.1@gmail.com</p>
-            </div>
-          </div>
-
-        </div>
-        <div className="right">
-          <h2 style={{ textAlign: "center", color: "white" }} className='contact_PS'>E-Mail Me</h2>
-          <hr style={{ width: 120, marginTop: "-18px", height: 4, backgroundColor: "#18d26e", border: "none" }} />
-          <form onSubmit={handleSubmit}>
-            <br />
-            <input type="text" placeholder="Email" className='contactEmail_PS'/>
-            <br />
-            <textarea placeholder="Message" className='contactEmail_PS'></textarea>
-            <br />
-            <button type="submit" id='sendBtnn'>Send</button>
-            {message && <span>Thanks, I'll reply ASAP :)</span>}
-          </form>
-        </div>
+    <div className="contacts">
+      <section id="contact" style={{ marginTop: "100px" }}></section>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <h1 align="center" style={{ color: "#5779E5", fontSize: "2.5rem" }}>Get in Touch</h1>
       </div>
-      <br />
-      <br />
-      <div className="footer">
-        <p style={{ marginTop: 5 }}>Created By <span>Prince Sharma</span> | © 2023 All rights reserved</p>
+      <div className='contact'>
+        <div className='logos'>
+          <div>
+            <span>
+              <a
+                href="https://api.whatsapp.com/send?phone=+918637085433"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaWhatsapp className="whatsapp" />
+              </a>
+            </span>
+            <span>
+              <p>+91 8637085433</p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/princesharma1607/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin className="linkedin" />
+              </a>
+            </span>
+            <span>
+              <p>Linkedin</p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <a
+                href="https://github.com/Jimmy-Sharma/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                **
+              </a>
+            </span>
+            <span>
+              <p>Github</p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <a
+                href="mailto:prince786no.1@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                **
+                {/* <CgMail className="email" /> */}
+              </a>
+            </span>
+            <span>
+              <p>prince786no.1@gmail.com</p>
+            </span>
+          </div>
+          <div>
+            <span>
+              <a href="tel:+918637085433" target="_blank" rel="noreferrer">
+                **
+                {/* <FaLocationArrow className="phone" /> */}
+              </a>
+            </span>
+            <span>
+              <p>Durgapur, West Bengal</p>
+            </span>
+          </div>
+        </div>
+        <div>
+          <img src="https://meesahil7.github.io/static/media/mail.1db650d351729a0f17b4e3104e6a7b7a.svg" alt="" />
+        </div>
       </div>
     </div>
   )

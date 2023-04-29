@@ -1,118 +1,185 @@
-.skill {
-    background-color: rgb(87, 86, 86);
+   
+   .skillss{
+    width: 100%;
+    margin: auto;
+    padding: 100px 0px;
+background-image: linear-gradient(to top,#83A1D9 , #FFFFFF);
+background: linear-gradient(170deg, teal calc(30% + 1px), #D1D2D6 72%);
+background: linear-gradient(350deg, #807DFE calc(30% + 1px), #FAFAFA 30%);
+background: linear-gradient(350deg, #5779E5 calc(45% + 1px), #FAFAFA 45%);
+
+
+
+
+
+color: black;
+
+/* border: 5px solid red; */
+   }
+
+
+
+   .techsection {
+    width:1000px;
+    margin: auto;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 35px;
+    justify-content: space-between;align-items: center;
+    text-align: center;
+    /* background-color: var(--clr-bg); */
+    /* height: 60vh; */
+    /* max-height: 400px; */
+  }
+  .techsection img{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .techsection > div {
+    /* width: 11%;
+    height: 15vh;
+    max-height: 140px; */
+    /* float: left; */
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    box-shadow: var(--shadow);
+    z-index: 1;
+    border-radius: 20px;
+    /* margin: 2.5%; */
+    padding: 2px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 90px;
-    padding-bottom: 70px;
-    width: 100%;
-    height: auto;
-  }
-  @media only screen and (max-width: 600px) {
-    .skill {
-      justify-content: space-around;
-    }
-  }
+    transition: all 0.5s ease 0s;
+    border: 2px solid var(--clr-primary);
+    background-color:whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 
-  .skill h1{
-    text-align: center;
+  }
+  .techsection > div:hover {
+    background-color: var(--clr-bg);
+    background-color: rgb(37, 37, 53);
     color: white;
-    margin-top: -10px;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: cursive;
+    overflow: hidden;
+    transform: scale(1.08);
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid var(--clr-primary);
   }
-  @media (max-width: 760px) {
-    .skill h1 {
-      font-size: 40px;
-    }
+  
+  
+  .techsection > div > svg {
+    /* height: 50%;
+    width: 50%; */
+    /* font-size: 8vh; */
+    color: black;
   }
-  .hr{
-    width: 100px; 
-    margin-top: -18px;
-    height: 4px;
-    background-color: #18d26e;
-    border: none;
+  .techsection > div > h5 {
+    /* position: relative;
+    top: 8px; */
+    background-color: transparent;
+  }
+  
 
-    @media (max-width: 650px){
-      margin-bottom: -20px;
-    }
-    @media (max-width: 415px){
-      margin-top: -30px;
-      margin-bottom: 10px;
-    }
-  }
-.techStacks{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  width: 75%;
-  justify-content: space-evenly;
-  margin-top: 30px;
-}
-.skills-card-img{
-  width: 100px;
-  height: 100px;
-  margin-top: 50px;
-}
 
-#express{
-  color: #beff00;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#mongo{
-  color: #58aa50;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#redux{
-  color: #6c4eb0;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#node{
-  color: #6da75d;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#types{
-  color: #5992ce;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#js{
-  color: #ffdf00 ;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#css{
-  color: 
-  #2196f3;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#html{
-  color: #ff4b00;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
-}
-#react{
-  color: #00bfe3;
-  font-family: cursive;
-  font-size: 23px;
-  font-weight: bold;
+     
+@media all and (min-width: 780px) and (max-width: 1080px) {
+  
+   .techsection{
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+   }
+  
+
+  /* .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  } */
 }
 
-.skills-card{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  border-radius: 15%;
-  margin: 10px 10px 10px 10px;
+@media all and (min-width: 480px) and (max-width: 780px) {
+  
+  .techsection{
+   width: 80%;
+   margin: auto;
+   grid-template-columns: repeat(3,1fr);
+  }
+ 
+
+ /* .techsection > div {
+   width: 40%;
+   margin-right: 5%;
+   margin-bottom: 2%;
+   height: 18vh;
+ } */
 }
+
+
+  
+  
+  @media all and (min-width: 320px) and (max-width: 480px) {
+
+    .techsection{
+      width: 80%;
+      margin: auto;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+     }
+
+     .techsection>div{
+      height: 100px;
+      width: 100px;
+      padding: 10px;
+     }
+
+    
+
+    /* .techsection > div {
+      width: 40%;
+      margin-right: 5%;
+      margin-bottom: 2%;
+      height: 18vh;
+    } */
+  
+  }
+
+
+  @media all and (min-width: 280px) and (max-width: 320px) {
+
+    .techsection{
+      width: 80%;
+      margin: auto;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+      justify-content: space-between;
+     }
+
+     .techsection>div{
+     width: 85px;
+     height: 85px;
+      padding: 10px;
+     }
+
+   
+
+    
+
+    /* .techsection > div {
+      width: 40%;
+      margin-right: 5%;
+      margin-bottom: 2%;
+      height: 18vh;
+    } */
+  
+  }
+    
+  
+  

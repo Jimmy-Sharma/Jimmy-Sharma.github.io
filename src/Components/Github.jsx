@@ -5,22 +5,18 @@ import '../Styling/Github.css'
 const Github = () => {
   return (
     <div>
-      <div className='githubStat' style={{ display: "grid", alignItems: "center", justifyContent: "center" }}>
-
-        <h1 id='heading_PS'>Github</h1>
-        <hr className="hr" />
-        <GithubCalender color={"orange"} username='Jimmy-Sharma'>
-
-        </GithubCalender>
-        <div style={{ display: "grid", alignItems: "center", justifyContent: "center", gap: '20px', marginTop: "40px" }}>
+      <h1 align="center" style={{ fontSize: "2.5rem", marginBottom: "50px" }}>Github</h1>
+      <div className="git">
+        <div className="calender">
+          <GithubCalender color={"orange"} username='Jimmy-Sharma'>
+          </GithubCalender>
+        </div>
+        <div className="stats">
           <div>
-            <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Jimmy-Sharma" alt="streak" />
+            <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Jimmy-Sharma&show_icons=true&locale=en&theme=gotham" alt="Jimmy-Sharma" />
           </div>
           <div>
-            <img id='github-top-langs' src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jimmy-Sharma&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="" />
-          </div>
-          <div>
-            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Jimmy-Sharma&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="" />
+            <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Jimmy-Sharma&theme=gotham" alt="Jimmy-Sharma" /></p>
           </div>
         </div>
       </div>

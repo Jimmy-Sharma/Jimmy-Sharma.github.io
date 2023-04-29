@@ -1,16 +1,102 @@
-.githubStat {
-    width: 100%;
-    padding-top: 70px;
-    padding-bottom: 70px;
+
+img{
+    width:100%;
+}
+.calender{
+    background-color: #282A36;
+    border-radius: 15px;
+    font-size: large;
     color: white;
-    background-color: #313343;
+    padding: 20px;
 }
 
-#heading_PS{
-    text-align: center;
-    color: white;
-    margin-top: -10px;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: cursive;
+.gitcont{
+    /* border: 10px solid white; */
+    width: 100%;
+    padding: 70px 0px;
+    /* border: 5px solid red; */
+    /* border: 5px solid black; */
+    /* background-color: black; */
+    /* color: whitesmoke; */
+    background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF);
+background: linear-gradient(163deg, #D1D2D6 70%, teal calc(30% + 1px));
+background: linear-gradient(170deg, #D1D2D6 70%, teal calc(30% + 1px));
+background: linear-gradient(170deg, #FAFAFA 70%,  #807DFE calc(30% + 1px));
+background: linear-gradient(350deg, #5779E5 calc(30% + 1px), #FAFAFA 70%);
+
+
+
+
+    /* background-image: linear-gradient(to right,#83A1D9 , #FFFFFF);
+background-image: linear-gradient(to bottom,#83A1D9 , #FFFFFF); */
+
+
+/* 
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTxZlrI3MsQNYw7e-WwvdkJiObm0h2V8NWAgQo5BdXlwVsqFcPqM_Ael2hS3yHswwJ0E&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
+
+.git{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats{
+    width: 100%;
+    margin: auto;
+display: flex;
+justify-content: center;
+    gap: 25px;
+}
+
+.stats div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+   
+@media all and (min-width: 480px) and (max-width: 780px) {
+/*   
+    .gitcont{
+        margin-top: 500px;
+    } */
+
+    .git{
+        width: 80%;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+}
+
+
+    
+    
+    @media all and (min-width: 280px) and (max-width: 480px) {
+/* 
+        .gitcont{
+            margin-top: 500px;
+        } */
+
+        .git{
+            width: 80%;
+        }
+
+        .stats{
+          flex-direction: column;
+        }
+    
+    }
+
