@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <div id="contact" >
       <br />
-      <h1 style={{ textAlign: "center", color: "white" }} >Contact Me Here</h1>
+      <h1 style={{ textAlign: "center", color: "white" }} className='contact_PS'>Contact Me Here</h1>
       <hr style={{ width: 150, marginTop: "-18px", height: 4, backgroundColor: "#18d26e", border: "none" }} />
       <div className="contact">
         <div className="left">
@@ -51,15 +51,15 @@ const Contact = () => {
 
         </div>
         <div className="right">
-          <h2 style={{ textAlign: "center", color: "white" }}>E-Mail Me</h2>
+          <h2 style={{ textAlign: "center", color: "white" }} className='contact_PS'>E-Mail Me</h2>
           <hr style={{ width: 120, marginTop: "-18px", height: 4, backgroundColor: "#18d26e", border: "none" }} />
           <form onSubmit={handleSubmit}>
             <br />
-            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Email" className='contactEmail_PS'/>
             <br />
-            <textarea placeholder="Message"></textarea>
+            <textarea placeholder="Message" className='contactEmail_PS'></textarea>
             <br />
-            <button type="submit">Send</button>
+            <button type="submit" id='sendBtnn'>Send</button>
             {message && <span>Thanks, I'll reply ASAP :)</span>}
           </form>
         </div>

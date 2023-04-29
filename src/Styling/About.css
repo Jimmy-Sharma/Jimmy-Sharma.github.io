@@ -2,20 +2,29 @@
     width: 100%;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgb(1, 23, 136), rgb(249, 75, 0));
+    background-color: #413755;
   }
   #about h1 {
     text-align: center;
     font-weight: 500px;
-    font-size: 42px;
+    font-size: 45px;
     color: black;
     margin-top: -10px;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
+  }
+  #user-detail-name{
+    margin-top: 300px;
   }
   #user-detail-intro{
     font-size: 26px;
-    font-family: sans-serif;
+    font-family: cursive;
     line-height: 33px;
-    color: rgb(135, 149, 144);
+    color: rgb(204, 253, 236);
   }
   @media (max-width: 760px) {
     #about h1 {

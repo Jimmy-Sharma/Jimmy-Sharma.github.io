@@ -1,5 +1,5 @@
 .skill {
-    background-color: black;
+    background-color: rgb(87, 86, 86);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,18 +112,7 @@
 }
 
 .skills-card{
-  box-shadow: rgba(222, 8, 8, 0.3) 0px 19px 38px, rgba(255, 2, 2, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 15%;
-  margin-bottom: 5px;
-}
-.skills-card{
-  box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(247, 0, 0, 0.22) 0px 15px 12px;
-  border-radius: 15%;
-  margin-bottom: 5px;
-}
-
-.skills-card{
-  box-shadow: rgba(214, 0, 0, 0.3) 0px 19px 38px, rgba(177, 0, 0, 0.22) 0px 15px 12px;
-  border-radius: 15%;
-  margin-bottom: 5px;
+  margin: 10px 10px 10px 10px;
 }

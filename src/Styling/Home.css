@@ -1,7 +1,7 @@
 .backgroundIMG {
   /* background-image:
     url("https://miro.medium.com/v2/resize:fit:1400/0*ppksZ4leAG6MCsji"); */
-  background-image: linear-gradient(rgb(1, 41, 241), rgb(187, 0, 34));
+  background-color: #313343;
   background-size: "cover";
   width: 100%;
   font-size: 50px;
@@ -11,6 +11,11 @@
   justify-content: space-evenly;
   padding-top: 50px;
   padding-bottom: 110px;
+}
+
+#homeDeveloper{
+  height: 500px;
+  margin-top: 20px;
 }
 
 .introName {
@@ -34,7 +39,13 @@
   color: white;
 }
 
-#resume-button-2{
+#resume-button-2 {
   background-color: transparent;
   border: 0px;
+}
+
+@media only screen and (max-width: 650px) {
+  #homeDeveloper {
+    display: none;
+  }
 }

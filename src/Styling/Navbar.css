@@ -9,6 +9,10 @@
       transition: all 1s ease;
   }
 
+  #resume-button-1{
+    font-size: 15px;
+    font-weight: bold;
+  }
   .topbar .wrapper {
       padding: 10px 30px;
       display: flex;
@@ -99,6 +103,7 @@
       align-items: center;
       margin-right: 10px;
       color: white;
+      font-weight: bold;
   }
 
 

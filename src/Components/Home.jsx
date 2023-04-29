@@ -19,7 +19,7 @@ const Home = () => {
     <div className="intro" id="home">
       <div className="backgroundIMG">
         <div>
-          <img style={{ marginTop: "120px" }} src="newDeveloperBoyBG.gif" alt="developerBoy" />
+          <img id='homeDeveloper' src="https://media2.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif?cid=ecf05e47yz4a1bb1rmllx8kycenbvax3jmgwmtfcmprqo0yu&rid=giphy.gif&ct=g" alt="developerBoy" />
         </div>
         <div>
           <div className='introName'>

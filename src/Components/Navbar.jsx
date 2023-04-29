@@ -18,10 +18,10 @@ const Navbar = () => {
                         <img src="PS.png" alt="PS_icon" />
                     </div>
                     <div className="itemContainer">
-                        <span>+91 8637085433</span>
+                        
                     </div>
                     <div className="itemContainer">
-                        <span>prince786no.1@gmail.com</span>
+                        
                     </div>
                 </div>
                 <div className="right">

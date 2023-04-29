@@ -2,6 +2,15 @@
     width: 100%;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: linear-gradient(rgb(1, 13, 73), rgb(112, 122, 255));
     color: white;
+    background-color: #313343;
+}
+
+#heading_PS{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
 }
