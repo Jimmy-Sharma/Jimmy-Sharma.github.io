@@ -5,7 +5,9 @@ const Projects = () => {
   const tools1 = [
     "HTML",
     "CSS",
-    "JS"
+    "JS",
+    "React JS",
+    "Chakra UI"
   ]
   const tools2 = [
     "HTML",
@@ -15,19 +17,12 @@ const Projects = () => {
   const tools3 = [
     "HTML",
     "CSS",
-    "JS",
-    "React JS",
-    "Chakra UI"
+    "JS"
   ]
   const tools4 = [
     "HTML",
     "CSS",
-    "JS",
-    "React JS",
-    "Node JS",
-    "Express JS",
-    "Mongo DB",
-    "Chakra UI"
+    "JS"
   ]
 
   let p1 = tools1.map((el) => (
@@ -65,19 +60,19 @@ const Projects = () => {
       <div className="proj_cont">
         <div className="card">
           <div className="left">
-            <img src="https://github.com/mdali-11/weather-app/raw/main/weather/pics/Screenshot%20(13131).png" alt="ss" />
+            <img src="vastra.png" alt="ss" />
           </div>
           <div className="right">
 
             <div className="title">Myntra Clone</div>
-            <div className="desc">Individual Project - Built a fully responsive weather app using weather API where you can search for any location</div>
+            <div className="desc">Vastra (Myntra Clone) is a one stop shop for all your fashion and lifestyle needs.</div>
             <div className="stacks">{p1}</div>
 
 
             <div className="links">
-              <button>  <a href="https://github.com/mdali-11/weather-app" target="_blank" rel="noreferrer"> Git Repo </a></button>
+              <button>  <a href="https://github.com/devendra684/Vastra-Myntra_Clone" target="_blank" rel="noreferrer"> Git Repo </a></button>
 
-              <button>  <a href="https://eloquent-concha-9fefda.netlify.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
+              <button>  <a href="https://vastra-rho.vercel.app/" target="_blank" rel="noreferrer"> Live Site </a></button>
 
             </div>
 

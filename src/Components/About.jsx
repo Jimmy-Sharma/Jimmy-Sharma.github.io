@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styling/About.css'
 import Type from './Type'
-// import {}  from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
 
 const About = () => {
 
@@ -26,7 +26,6 @@ const About = () => {
                             Hello, I am <span className="about_name">Prince Sharma</span>
                         </h1>
                         <h1>
-                            {/* ************************************* */}
                             <span className="typo"><Type /></span>
                         </h1>
                     </div>
@@ -48,7 +47,7 @@ const About = () => {
                                 rel="noreferrer"
                                 className="link link--icon"
                             >
-                                Github
+                                <FaGithub className='iconsss'/>
                             </a>
                             <a
                                 href="mailto:prince786no.1@gmail.com"
@@ -57,7 +56,7 @@ const About = () => {
                                 aria-label="mail"
                                 className="link link--icon"
                             >
-                                EmailIcon
+                                <FaEnvelope className='iconsss'/>
                             </a>
                             <a
                                 href="tel:+91 8637085433"
@@ -66,7 +65,7 @@ const About = () => {
                                 aria-label="phone"
                                 className="link link--icon"
                             >
-                                PhoneIcon
+                                <FaPhone className='iconsss'/>
                             </a>
                             <a
                                 href="https://www.linkedin.com/in/princesharma1607/"
@@ -75,21 +74,18 @@ const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                LinkedInIcon
+                                <FaLinkedin className='iconsss'/>
                             </a>
                         </div>
-
                         <button onClick={resumeOnclick} variant="outlined" style={{ background: "black", color: "white", fontWeight: "bolder", fontSize: "15px" }}
-
                         >
                             <a
                                 rel="noreferrer"
                                 style={{ textDecoration: "none", color: "white" }}
                                 href="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6"
+                                id='resumeABtn'
                             >
-
                                 RESUME
-
                             </a>
                         </button>
                     </div>

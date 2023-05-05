@@ -46,7 +46,7 @@ const Skills = () => {
 
           <div>
             {/* <SiExpress /> */}
-            <img src="https://meesahil7.github.io/static/media/github.56951958776829fd87e9049fa1927c16.svg" alt="" />
+            <img src="github.png" alt="" />
             <h3>Github</h3>
           </div>
 

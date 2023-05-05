@@ -1,0 +1,132 @@
+.header {
+    /* padding: 0px 0px; */
+    width: 100vw;
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 5;
+    display: flex;
+    /* background: linear-gradient(#6616fc, #f394d3); */
+    background-color: #FAFAFA;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Kalam");
+  
+  .fsh{
+    font-family: "Kalam";
+    margin-left: 10px;
+  }
+  
+  .name{
+    font-family: "Poppins";
+    margin-left: 10px;
+  }
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+  .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    top:55px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    /* background: #9899d1; */
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* padding-top: 50px; */
+    /* gap: 50px; */
+    background-color:#FAFAFA;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: left;
+    padding-left: 0px;
+  }
+  
+  
+  .menu_items{
+    height:fit-content;
+    font-size: 25px;
+    /* padding-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  
+  
+  .menu-icon {
+  
+    margin-right: 25px;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    /* height: 10vw; */
+    /* padding: 30px 0px; */
+  }
+  
+  
+  
+    .header .linkscroll {
+        color: black;
+        font-size: 1.2rem;
+    }
+  /* .header .sign-up {
+    background: black;
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  } */
+  
+  .header .sign-up {
+    background: black;
+    color: white;
+    padding: 10px 25px;
+  }
+  
+  .signin-up {
+    display: none;
+  }
+  .mobile-menu {
+  display: block;
+  }
+  
+  
+  

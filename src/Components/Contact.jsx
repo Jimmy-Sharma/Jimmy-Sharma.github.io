@@ -1,23 +1,21 @@
 import React from 'react'
-import { useState, useEffect } from "react";
-import { FaHome, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
+import { useEffect } from "react";
+import { FaEnvelope, FaGithub, FaLinkedin, FaSearchLocation, FaWhatsapp } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import '../Styling/Contact.css'
 
 const Contact = () => {
 
-  const [message, setMessage] = useState(false);
+  // const [message, setMessage] = useState(false);
 
   useEffect(() => {
     Aos.init({ duration: 1200 });
   })
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setMessage(true);
+  // };
 
   return (
     <div className="contacts">
@@ -62,7 +60,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                **
+                <FaGithub className='github' />
               </a>
             </span>
             <span>
@@ -76,8 +74,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                **
-                {/* <CgMail className="email" /> */}
+                <FaEnvelope className='email' />
               </a>
             </span>
             <span>
@@ -87,8 +84,7 @@ const Contact = () => {
           <div>
             <span>
               <a href="tel:+918637085433" target="_blank" rel="noreferrer">
-                **
-                {/* <FaLocationArrow className="phone" /> */}
+                <FaSearchLocation className="phone" />
               </a>
             </span>
             <span>
