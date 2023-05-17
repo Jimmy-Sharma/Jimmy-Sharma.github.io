@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <>
             <div>
-                <div className="nav">
+                <div className="nav" style={{backgroundColor:"white"}}>
                     <div className="TopArea">
                         <div style={{
                             marginLeft: "2vw",
