@@ -26,6 +26,14 @@
     color: black;
 }
 
+.princeBTN{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
 .TopArea {
     width: 95%;
     margin: auto;
@@ -125,7 +133,7 @@ div>a {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 0.5px;
     bottom: 0;
     left: 0;
     background-color: #646464;
@@ -145,7 +153,7 @@ btn .underLine1:hover:after {
 
 
 .underLine2 {
-    color: #5779E5;
+    color: #ffffff;
     transition: 10s;
     display: inline-block;
     position: relative;
@@ -157,10 +165,10 @@ btn .underLine1:hover:after {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 5px;
+    height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #5779E5;
+    background-color: #ffffff;
     transform-origin: bottom-right;
     transition: transform 0.25s ease-in-out;
 }

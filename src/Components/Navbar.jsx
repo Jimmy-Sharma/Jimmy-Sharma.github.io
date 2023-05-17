@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styling/Navbar.css"
-import { Link } from "react-router-dom"
+import { Link } from 'react-scroll'
 import MobNav from './MobNav';
 
 const Navbar = () => {
@@ -19,39 +19,39 @@ const Navbar = () => {
                         </div>
                         <div className="nav_options" >
                             <button
-                                className="underLine2 hide_on_responsive"
+                                className="underLine2 hide_on_responsive princeBTN"
                                 style={{ color: "white", fontSize: "15px" }}
                                 variant="text" color="default">
-                                <Link style={{ color: "black", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="Navbar" duration={600} offset={-75}>HOME</Link>
+                                <Link style={{ color: "white", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="home" duration={600} offset={-75}>HOME</Link>
                             </button>
                             <button
-                                className="underLine2 hide_on_responsive"
+                                className="underLine2 hide_on_responsive princeBTN"
                                 style={{ color: "white", fontSize: "15px" }}
                                 variant="text" color="default">
-                                <Link style={{ color: "black", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
+                                <Link style={{ color: "white", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="about" duration={600} offset={-75}>ABOUT ME</Link>
                             </button>
                             <button
-                                className="underLine2 hide_on_responsive"
+                                className="underLine2 hide_on_responsive princeBTN"
                                 style={{ color: "white", fontSize: "15px" }}
                                 variant="text" color="default">
-                                <Link style={{ color: "black", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="Skills" duration={600} offset={-100}>SKILLS</Link>
+                                <Link style={{ color: "white", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="skills" duration={600} offset={-100}>SKILLS</Link>
                             </button>
                             <button
-                                className="underLine2 hide_on_responsive"
+                                className="underLine2 hide_on_responsive princeBTN"
                                 style={{ color: "white", fontSize: "15px" }}
                                 variant="text" color="default">
-                                <Link style={{ color: "black", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
+                                <Link style={{ color: "white", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="projects" duration={600} offset={-75}>PROJECTS</Link>
                             </button>
                             <button
-                                className="underLine2 hide_on_responsive"
+                                className="underLine2 hide_on_responsive princeBTN"
                                 style={{ color: "white", fontSize: "15px" }}
                                 variant="text" color="default">
-                                <Link style={{ color: "black", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="contact" duration={600} offset={-50}>CONTACTS</Link>
+                                <Link style={{ color: "white", fontWeight: "bolder" }} className="linkscroll" activeClass="active" smooth spy to="contact" duration={600} offset={-50}>CONTACTS</Link>
                             </button>
                             <a href="https://drive.google.com/uc?export=download&id=11hj-XAex1zlYmribSLNlV4LQ5Eg-5js6"
                                 style={{ textDecoration: "none", color: "white" }}>
                                 <button onClick={resumeOnclick}
-                                    style={{ color: "white", background: "#5779E5", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px" }}
+                                    style={{ color: "white", background: "#5779E5", fontSize: "15px", fontWeight: "bolder", borderRadius: "7px", cursor:"pointer" }}
                                     variant="outlined" color="default">
                                     RESUME
                                 </button>
